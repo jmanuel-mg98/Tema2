@@ -8,8 +8,12 @@ public class Ejercise1 {
 		Scanner cs = new Scanner(System.in);
 		System.out.print("Escriba un numero: ");
 		int numero = cs.nextInt();
-		boolean par = (numero%2==0);
-		System.out.print("¿es este numero par? "+ par);
+		if (numero % 2 == 0) {
+			System.out.print("este numero  es par");
+		}
+		else {
+			System.out.print("este numero es impar");
+		}
 
 	}
 
