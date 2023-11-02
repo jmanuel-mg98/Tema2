@@ -16,7 +16,7 @@ public class Ejercise8 {
 					System.out.println("Bien");
 				} else if (numero>=7&&numero<9) {
 					System.out.println("Notable");
-				}else if (numero>=9&&numero<=10) {
+				} else if (numero>=9&&numero<=10) {
 					System.out.println("Sobresaliente");
 				}
 			} 	
