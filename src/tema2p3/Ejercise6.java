@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ejercise6 {
 
 	public static void main(String[] args) {
-		int contador = 1,num,suma=0,cuentaAlumnos=0,cuentaMe=0;
+		int num,suma=0,cuentaAlumnos=0,cuentaMe=0;
 		double media;
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Introduzca la edad del alumno: ");
