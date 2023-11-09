@@ -15,7 +15,7 @@ public class Ejercise5 {
 		System.out.println("¿Es " + num + " tu número? (Mayor / Menor / Igual)");
 		String respuesta = sc.nextLine().toLowerCase();
 		if(respuesta.equalsIgnoreCase("mayor")) {
-			randomMenos=num;
+			randomMenos=num+1;
 			num= rand.nextInt(randomMenos,randomMas);
 		}else if (respuesta.equalsIgnoreCase("menor")) {
 			randomMas=num;
