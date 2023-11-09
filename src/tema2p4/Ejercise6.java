@@ -20,7 +20,7 @@ public class Ejercise6 {
 			do {
 				System.out.println("jugador dos elija piedra papel o tijeras: ");
 				jugador2 = sc.nextLine();
-				}while(!jugador2.equalsIgnoreCase(PIEDRA)&&!jugador2.equalsIgnoreCase(PAPEL)&&!jugador2.equalsIgnoreCase(TIJERAS));
+			}while(!jugador2.equalsIgnoreCase(PIEDRA)&&!jugador2.equalsIgnoreCase(PAPEL)&&!jugador2.equalsIgnoreCase(TIJERAS));
 			if (jugador1.equalsIgnoreCase(jugador2)) {
 				System.out.println("empate");
 			}else if (jugador1.equalsIgnoreCase(PIEDRA)&&jugador2.equalsIgnoreCase(TIJERAS)) {
@@ -34,6 +34,6 @@ public class Ejercise6 {
 			}
 			System.out.println("si quieres repetir la partida pulsa s");
 			}while(sc.nextLine().equalsIgnoreCase(repetirPartida));
-		}
-		}
+	}
+}
 	

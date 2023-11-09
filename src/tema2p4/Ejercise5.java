@@ -22,7 +22,7 @@ public class Ejercise5 {
 			num= rand.nextInt(randomMenos,randomMas);
 		}else if(respuesta.equalsIgnoreCase("igual")){
 			acertado=false;
-			System.out.println("he acertado jodete");
+			System.out.println("he acertado lo siento");
 		}else {
 			System.out.println("dato incorrecto");
 		}
